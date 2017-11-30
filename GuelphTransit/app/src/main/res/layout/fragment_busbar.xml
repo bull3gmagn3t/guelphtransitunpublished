@@ -1,0 +1,47 @@
+<!--Author: Nic Durish-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_busbar"
+    >
+    <RelativeLayout android:id="@+id/dragAreaLeft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:padding="3dp"/>
+    <RelativeLayout android:id="@+id/dragAreaRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|end"
+        android:padding="3dp"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <GridView
+                android:id="@+id/list_view_bus"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:longClickable="true"
+                android:scrollbars="none"
+                android:background="@color/botbar_background_colour"
+                android:padding="3dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>

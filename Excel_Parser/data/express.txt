@@ -1,0 +1,58 @@
+50,5000,University Centre,43.529061,-80.223853,0
+50,5001,Stone Rd. at Gordon,43.526155,-80.225552,0
+50,5002,Stone Rd. at Fire Hall,43.524079,-80.228395,0
+50,5003,Stone Rd. opposite Target,43.522025,-80.231255,0
+50,5004,Stone Rd. W. at Edinburgh Rd. S.,43.520421,-80.233339,0
+50,5005,Stone Rd. W. at Stone Road Mall,43.517506,-80.237163,0
+50,5006,Stone Rd. W. at Scottsdale Dr.,43.515924,-80.239287,0
+50,5007,Stone Rd. W. at Stone Rd. Mall,43.518841,-80.239223,0
+50,5008,Scottsdale Dr. at Wilsonview Ave.,43.520936,-80.239872,0
+50,5009,16 Wilsonview Ave.,43.522162,-80.238666,0
+50,5010,Edinburgh Rd. at Chancellors Way,43.521437,-80.236229,0
+50,5011,Stone Rd. opposite Target, 43.521658,-80.231271,0
+50,5012,95 Stone Rd. W.,43.524664,-80.227211,0
+56,5600,University Centre,43.529061,-80.223853,0
+56,5601,Stone Rd. E. at Victoria Rd. S.,43.528978,-80.208100,0
+56,5602,1035 Victoria Rd. S.,43.532965,-80.197880,0
+56,5603,Victoria Rd. S. at Arkell Rd.,43.523614,-80.185126,0
+56,5604,Victoria Rd. S. at Summerfield,43.519600,-80.179599,0
+56,5605,Victoria Rd. S. at Katemore Dr.,43.517599,-80.176822,0
+56,5606,Frederick Dr. at Waterford Dr.,43.514966,-80.1755299,0
+56,5607,264 Colonial Dr.,43.516703,-80.180337,0
+56,5608,Colonial North of Marsh,43.518911,-80.183522,0
+56,5609,Colonial North of Bard Bv.,43.520911,-80.186991,0
+56,5610,Gordon St. at Arkell Rd.,43.514002,-80.199623,0
+56,5611,Gordon St. at Valley Rd.,43.516670,-80.203126,0
+56,5612,Gordon St. at Landsdown Dr.,43.518501,-80.205694,0
+56,5613,Gordon St. at Harts Lane,43.519616,-80.207459,0
+56,5614,1030 Gordon St.,43.520878,-80.209938,0
+56,5615,Gordon St. at Kortright Rd.,43.522731,-80.213720,0
+56,5616,Gordon St. at Hands Dr.,43.524265,-80.216860,0
+56,5617,Gordon St. at Monticello Cres.,43.525798,-80.221738,0
+57,5700,University Centre,43.529061,-80.223853,0
+57,5701,Gordon St. at Stone Rd.,43.527481,-80.226364,0
+57,5702,Gordon St. at Harvard Rd.,43.525460,-80.221206,0
+57,5703,Harvard Rd. at Shakespeare Arms,43.524021,-80.223298,0
+57,5704,Harvard Rd. at Princeton Pl,43.520705,-80.228320,0
+57,5705,Harvard Rd. at Youngman Dr.,43.518111,-80.228425,0
+57,5706,Ironwood Rd. at Reid Crt.,43.515243,-80.231846,0
+57,5707,711 Scottsdale Dr.,43.513051,-80.234453,0
+57,5708,632 Scottsdale Dr.,0,0,0
+57,5709,Stone Rd. W. at Scottsdale Dr.,0,0,0
+57,5710,372 Stone Rd. W.,0,0,0
+57,5711,Stone Rd. W. at Edinburgh Rd. S.,0,0,0
+57,5712,Stone Rd. opposite Target,0,0,0
+57,5713,95 Stone Rd. W.,0,0,0
+58,5800,University Centre,43.529061,-80.223853,0
+58,5801,Stone Rd. at Gordon,43.526155,-80225552,0
+58,5802,Stone Rd at Fire Hall,43.524079,-80.228395,0
+58,5803,Stone Rd. opposite Target,43.522025,-80.231255,0
+58,5804,583 Edinburgh Rd.,43.516550,-80.229359,0
+58,5805,685 Edinburgh Rd.,43.515576,-80.223386,0
+58,5806,Kortright Rd. W. at Edinburgh Rd. S.,43.514318,-80.219874,0
+58,5807,Kortright Rd. W. at Rickson Ave.,43.516483,-80.216965,0
+58,5808,Kortright at Yewholme,43.519757,-80.214800,0
+58,5809,Gordon St. at Kortright Rd.,43.522731,-80.213720,0
+58,5810,Gordon St. at Hands Dr.,43.524265,-80.216860,0
+58,5811,Gordon St. at Monticello Cres,43.525798,-80.221738,0
+

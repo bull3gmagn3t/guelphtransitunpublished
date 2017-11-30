@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Raw Colours-->
+    <color name="black">#f000000c</color>
+
+    <!--Bottom Icon Colours-->
+    <color name="bot_icon_id_colour">#dbdbdb</color>
+    <color name="bot_icon_name_colour">#a1a1a1</color>
+    <color name="bot_background_colour">#cccccc</color>
+
+    <!--Button/Bottom Bar Colours-->
+    <color name="butbar_background_colour">#ffb0b0b0</color>
+    <color name="botbar_background_colour">#ff999999</color>
+
+    <!-- Drawable Colours-->
+    <color name="draw_rounded_dark_border">#ff1f1f1f</color>
+    <color name="draw_rounded_dark_background">#ff0c0c0c</color>
+    <color name="draw_rounded_light_border">#ffbfbfbf</color>
+    <color name="draw_rounded_light_background">#ffdddddd</color>
+
+    <color name="text_colour">#f0000000</color>
+
+    <!--Schedule Colours-->
+    <color name="sched_id_colour">#ff1e1e1e</color>
+    <color name="sched_name_colour">#ff1e1e1e</color>
+    <color name="sched_icon_colour">#ff1e1e1e</color>
+
+</resources>

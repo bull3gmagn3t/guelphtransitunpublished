@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@color/text_colour"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This Application Is Under Construction."
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="BusMaster is a tool for navigating the routes and schedules of the City of Guelph, Ontario."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/text_colour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="By using GPS Coordinates from NextBus, Schedules from the City and Google Maps, BusMaster hopes to provide an accurate and intuitive transit tool"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/text_colour" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_above="@+id/textView4"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vrlogo"
+            android:src="@drawable/vrlogo"
+            android:clickable="true"
+            android:layout_gravity="center"/>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="This Application was developed by Nic Durish, Jackson Keenan, Anthony Mazzawi and Aidan Maher under Dennis Niketenko for CIS*3760 at the University of Guelph"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_margin="9dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/text_colour"
+        android:layout_gravity="right|center_vertical" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VelocityRaptor ©, 2015 "
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/text_colour" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Author: Nic Durish-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corners_dark"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="18dp"
+        android:textColor= "@color/bot_icon_id_colour"
+        android:textSize="15sp"
+        android:text="@string/temp_list_stop_id"
+        android:id="@+id/bus_stop_id"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:textColor="@color/bot_icon_name_colour"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="@string/temp_sched_stop_name"
+        android:id="@+id/bus_stop_name"
+        android:gravity="center"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"/>
+
+</LinearLayout>

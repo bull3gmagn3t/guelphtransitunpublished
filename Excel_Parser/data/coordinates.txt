@@ -1,0 +1,692 @@
+Latitude	Longitude	stopID	stopName
+43.529	-80.2238	0100	University Centre
+43.5275	-80.2264	0101	Gordon St. at Stone Rd. W.
+43.5252	-80.2211	0102	Gordon St. at Harvard Rd.
+43.5221	-80.2132	0103	Gordon St. at Kortright Rd.
+43.5196	-80.208	0104	Gordon St. at Harts Lane
+43.518	-80.2058	0105	1155 Gordon St.
+43.5166	-80.2037	0106	Gordon St. at Edinburgh Rd. S.
+43.5137	-80.2067	0107	Edinburgh Rd. S. at Carrington Dr.
+43.5116	-80.2096	0108	Edinburgh Rd. S. at Rickson Ave.
+43.5111	-80.2136	0109	Edinburgh Rd. S. at Ginger Crt.
+43.5126	-80.2186	0110	Edinburgh Rd. S. at Rogers Rd.
+43.5161	-80.2259	0111	Edinburgh Rd. S. at Koch Dr.
+43.5174	-80.2304	0112	Edinburgh Rd. S. at Laurelwood Crt.
+43.5175	-80.2372	0113	Stone Rd. W. at Stone Road Mall
+43.5159	-80.2393	0114	Stone Rd. W. at Scottsdale Dr.
+43.5175	-80.2447	0115	181 Janefield Ave.
+43.5191	-80.247	0116	53 Janefield Ave.
+43.522	-80.2461	0117	264 College Ave. W.
+43.5243	-80.243	0118	College Ave. W. at Meadowcroft
+43.5297	-80.2358	0119	50 College Ave. W.
+43.5335	-80.2304	0120	College Ave. E. at MacDonald St.
+43.5351	-80.225	0121	East Ring Rd. at Dundas Lane
+43.5332	-80.2224	0122	East Ring Rd. at Arboretum Rd.
+43.529	-80.2238	0123	University Centre
+43.5291	-80.2238	0150	University Centre
+43.5333	-80.2222	0151	East Ring Rd. at Arboretum Rd.
+43.5351	-80.2245	0152	East Ring Rd. at Dundas Lane
+43.5334	-80.2309	0153	College Ave. E. at MacDonald St.
+43.5298	-80.2358	0154	College Ave. W. at Caledonia St.
+43.5252	-80.2422	0155	College Ave. W. at Edinburgh Rd.
+43.5216	-80.2471	0156	College Ave. W. at Centennial
+43.5179	-80.2456	0157	129 Janefield Ave.
+43.5168	-80.2409	0158	Janefield Ave. at Scottsdale Dr.
+43.5162	-80.2386	0159	Stone Rd. W. at Scottsdale Dr.
+43.5176	-80.2366	0160	372 Stone Rd. W.
+43.5195	-80.2342	0161	292 Stone Rd. W.
+43.5165	-80.2293	0162	583 Edinburgh Rd. S.
+43.5157	-80.2237	0163	685 Edinburgh Rd. S.
+43.5126	-80.2189	0164	777 Edinburgh Rd. S.
+43.5109	-80.2134	0165	Edinburgh Rd. S. at Southcreek Trail
+43.5115	-80.2094	0166	Edinburgh Rd. S. at Rickson Ave.
+43.5135	-80.2066	0167	Edinburgh Rd. S. at Carrington Dr.
+43.5166	-80.2032	0168	Gordon St. at Valley Rd.
+43.5185	-80.2057	0169	Gordon St. at Landsdown Dr.
+43.5196	-80.2075	0170	Gordon St. at Harts Lane
+43.5209	-80.2099	0171	1030 Gordon St.
+43.5227	-80.2137	0172	Gordon St. at Kortright Rd.
+43.5243	-80.2169	0173	Gordon St. at Hands Dr.
+43.5258	-80.2218	0174	Gordon St. at Monticello Cres.
+43.5291	-80.2238	0175	University Centre
+43.5458	-80.2455	0200	Guelph Central Station
+43.5423	-80.244	0201	Wellington St. at KFC
+43.5383	-80.2413	0202	Gordon St. at Water St.
+43.5372	-80.2398	0203	Gordon St. at Forbes Ave.
+43.534	-80.2355	0204	Gordon St. at Dean Ave.
+43.5315	-80.2319	0205	Gordon St. at College Ave.W.
+43.5291	-80.2238	0206	University Centre 
+43.5204	-80.2334	0207	Stone Rd. W. at Edinburgh Rd. S.
+43.5175	-80.2372	0208	Stone Rd. W. at Stone Road Mall
+43.5229	-80.2677	0209	659 Wellington St. W. 
+43.5179	-80.2703	0210	Fife Rd. at Wellington St. W.
+43.5157	-80.2733	0211	Fife Rd. at Gateway Dr.
+43.514	-80.2756	0212	Fife Rd. at Deerfield Pl.
+43.5164	-80.2788	0213	Elmira Rd. at West Acres Dr.
+43.5189	-80.282	0214	Elmira Rd. at Freshmeadow Way
+43.521	-80.2872	0215	Elmira Rd. at Stephanie Dr.
+43.522	-80.2896	0216	Elmira Rd. at Zehrs
+43.5235	-80.2931	0217	Elmira Rd. at West End Community Centre
+43.5273	-80.2969	0218	Willow Rd. at Flaherty Dr.
+43.5288	-80.292	0219	Imperial Rd. N. at Willow Rd.
+43.5317	-80.2942	0220	Imperial Rd. N. at Dunhill Cres.
+43.535	-80.2947	0221	Imperial Rd. N. at Westwood Rd.
+43.5372	-80.2969	0222	Imperial Rd. N. at Speedvale Ave. W.
+43.54	-80.294	0223	ARC Industries
+43.543	-80.2983	0224	Royal Rd. at Massey Rd. (Guelph Tool)
+43.5412	-80.3015	0225	Massey Rd. at Imperial Rd.
+43.5439	-80.306	0226	Imperial Rd. N. at Woodlawn Rd. W.
+43.546	-80.3035	0227	Woodlawn Rd. W. at Royal Rd.
+43.5488	-80.2995	0228	Woodlawn Rd. W. at Regal Rd.
+43.5516	-80.2958	0229	Woodlawn Rd. W. at Silvercreek Pkwy. N.
+43.5561	-80.2897	0230	Woodlawn Rd. W. at Dawson Rd.
+43.5586	-80.2862	0231	Woodlawn Rd. W. at Edinburgh Rd. N.
+43.5604	-80.2836	0232	Woodlawn Rd. W. at Nicklin Rd.
+43.5646	-80.2777	0233	Woodlawn Rd. W. at Woolwich St. 
+43.5621	-80.2736	0234	Woolwich St. at Marilyn Dr.
+43.5598	-80.2703	0235	Woolwich St. at Evergreen
+43.5568	-80.2663	0236	Woolwich St. at Mac Ave.
+43.5525	-80.2603	0237	Woolwich St. at Tiffany St.
+43.5498	-80.2566	0238	Woolwich St. at London Rd.
+43.5485	-80.2546	0239	Woolwich St. at Wyndham St. N.
+43.5456	-80.249	0240	Wyndham St. N. at IF Shoe Store
+43.5458	-80.2455	0241	Guelph Central Station
+43.5458	-80.2455	0250	Guelph Central Station
+43.5464	-80.2495	0251	Wyndham St. at Bank of Nova Scotia
+43.5482	-80.2513	0252	Woolwich St. at Cardigan St.
+43.5488	-80.255	0253	Woolwich St. at Norwich St.
+43.5501	-80.2567	0254	Woolwich St. at London Rd.
+43.5519	-80.2591	0255	Woolwich St. at Kerr St. 
+43.5531	-80.2608	0256	Woolwich St. at Powell St.
+43.5559	-80.2648	0257	Woolwich St. at Earl St.
+43.558	-80.2676	0258	Woolwich St. at Speedvale Ave. 
+43.5602	-80.2705	0259	Woolwich St. at Evergreen Seniors Community Centre
+43.562	-80.273	0260	Woolwich St. at Marilyn Dr.
+43.5641	-80.279	0261	Woodlawn Rd. W. at Walmart
+43.561	-80.2831	0262	Woodlawn Rd. W. at Nicklin Rd.
+43.5585	-80.2867	0263	Woodlawn Rd. W. at Edinburgh Rd. N.
+43.5568	-80.289	0264	Woodlawn Rd. W. at Dawson Rd.
+43.5542	-80.2926	0265	Woodlawn Rd. W. at Arrow Rd.
+43.5517	-80.296	0266	Woodlawn Rd. W. at Silvercreek Pkwy. N.
+43.5487	-80.3001	0267	Woodlawn Rd. W. at Regal Rd.
+43.5464	-80.3032	0268	Woodlawn Rd. W. at Royal Rd.
+43.5435	-80.3059	0269	Imperial Rd. N. at Woodlawn Rd. W.
+43.5409	-80.3015	0270	Massey Rd. at Imperial Rd. N.
+43.5427	-80.2983	0271	Royal Rd. at Massey Rd.
+43.54	-80.2944	0272	Royal Rd. at ARC Industries
+43.5366	-80.2964	0273	Imperial Rd. N. at Speedvale Ave. W.
+43.5341	-80.2947	0274	Imperial Rd. N. at Thornhill Dr.
+43.5308	-80.2942	0275	Imperial Rd. N. at Kipling Ave.
+43.5288	-80.2924	0276	Imperial Rd. N. at Willow Rd. 
+43.5277	-80.2965	0277	Willow Rd. at Flaherty Dr. 
+43.5225	-80.2914	0278	Elmira Rd. at West End Community Centre
+43.5219	-80.2899	0279	Elmira Rd.at Paisley Rd. 
+43.5187	-80.282	0280	Elmira Rd. at Freshmeadow Way
+43.5165	-80.2791	0281	Elmira Rd. at Rochelle Dr.
+43.5139	-80.2753	0282	Fife Rd. at Elmira Rd.
+43.5154	-80.2732	0283	Fife Rd. at Gateway Dr.
+43.5178	-80.2701	0284	26 Fife Rd. at Coop
+43.5229	-80.2672	0285	Wellington St. W. at Wastewater Treatment Plant
+43.5162	-80.2386	0286	Stone Rd. W. at Scottsdale Dr. 
+43.5176	-80.2366	0287	Stone Rd. W. at McDonald's
+43.5195	-80.2342	0288	Stone Rd. W. at Edinburgh Rd. S.
+43.5217	-80.2313	0289	Stone Rd. W. opposite Target
+43.5247	-80.2272	0290	95 Stone Rd. W.
+43.531	-80.2238	0291	University Centre
+43.531	-80.2307	0292	Gordon St. at Vet College
+43.5328	-80.2333	0293	Gordon St. at Macdonald Stewart Art Centre
+43.537	-80.2392	0294	Gordon St. at Dormie Lane
+43.5381	-80.2409	0295	Gordon St. at Water St.
+43.5414	-80.2441	0296	Wellington St. at Wellington Plaza 
+43.5434	-80.2452	0297	Wyndham St. at Fountain St.
+43.5458	-80.2455	0298	Guelph Central Station
+43.5458	-80.2455	0300	Guelph Central Station
+43.5459	-80.249	0301	Wyndham St. N. at PharmaSave
+43.5482	-80.2513	0302	Woolwich St. at Cardigan St.
+43.5474	-80.2549	0303	Suffolk St. W. at Norfolk St. 
+43.5464	-80.2568	0304	Suffolk St. W. at Dublin St. N.
+43.5455	-80.2585	0305	Suffolk St. W. at Glasgow St.
+43.5464	-80.2617	0306	Yorkshire St. N. at London Rd. W.
+43.5482	-80.267	0307	Westmount Rd. at Lourdes 
+43.5501	-80.2696	0308	Westmount Rd. at Division St.
+43.5501	-80.2696	0309	St. Joseph's Health Centre
+43.5534	-80.2742	0310	Westmount Rd. at Speedvale Ave. W.
+43.5561	-80.273	0311	Kathleen St. at June Ave.
+43.5572	-80.2767	0312	Bailey Ave. at Nicklin Rd.
+43.5601	-80.2823	0313	Nicklin Rd. at Woodlawn Rd. W.
+43.5646	-80.2777	0314	Woodlawn Rd. W. at Woolwich St.
+43.5663	-80.2756	0315	21 Woodlawn Rd. E. at Apartments
+43.5693	-80.2714	0316	Woodlawn Rd. E. opposite Seniors Centre
+43.572	-80.2677	0317	Woodlawn Rd. E. at Fairway Lane
+43.5744	-80.2644	0318	Woodlawn Rd. E. at Golfview Dr.
+43.5766	-80.2631	0319	Inverness Dr. at Glenbrook Dr.
+43.5792	-80.2667	0320	Inverness Dr. at Simmonds Dr.
+43.5805	-80.264	0321	Victoria Rd. N. at Trillium Waldorf
+43.5779	-80.2604	0322	Victoria Rd. N. at Woodlawn Rd. E.
+43.5742	-80.2552	0323	Victoria Rd. N . at Delta St. 
+43.5707	-80.2503	0324	Victoria Rd. N. at Speedvale Ave. E.
+43.5692	-80.2483	0325	Victoria Rd. N. at Eramosa Rd.
+43.5667	-80.2447	0326	Victoria Rd. N. at St. Paul's Church
+43.5653	-80.2413	0327	Eastview Rd. at Glenburnie Dr. 
+43.5674	-80.2385	0328	Eastview Rd. at Mountford Dr.
+43.5691	-80.2361	0329	Eastview Rd. at Auden Rd.
+43.5726	-80.2313	0330	Eastview Rd. at Summit Ridge Dr.
+43.5733	-80.2178	0331	Watson Pkwy. N. at Grange Rd.
+43.5706	-80.214	0332	Watson Pkwy. N. at Fleming Rd.
+43.5666	-80.2118	0333	Watson Pkwy. N. at Library
+43.5614	-80.211	0334	York Rd. At Watson Pkwy. N.
+43.5583	-80.2152	0335	York Rd. at Yorkhaven Pl.
+43.5571	-80.217	0336	York Rd. at Royal City Jaycees Park
+43.5549	-80.22	0337	York Rd. at Beaumont Cres.
+43.5516	-80.2236	0338	Victoria Rd. at York Rd. 
+43.5394	-80.2079	0339	Stone Rd. E. at Victoria Rd. S.
+43.5337	-80.2155	0340	Stone Rd. E. at Arbour Medical Centre
+43.5291	-80.2238	0341	University Centre
+43.5314	-80.2314	0342	Gordon St. at Vet College
+43.5328	-80.2334	0343	Gordon St. at Macdonald Stewart Art Centre
+43.537	-80.2339	0344	Gordon St. at Dormie Lane
+43.5381	-80.2409	0345	Gordon St. at Water St.
+43.5414	-80.2441	0347	Wellington St. at Wellington Plaza 
+43.5458	-80.2455	0349	Guelph Central Station
+43.5458	-80.2455	0350	Guelph Central Station
+43.5418	-80.2481	0351	Gordon St. at Nottingham St.
+43.5408	-80.2452	0352	Gordon St. at Wellington St.
+43.5383	-80.2413	0353	Gordon St. at Water St.
+43.5372	-80.2398	0354	Gordon St. at Forbes Ave.
+43.534	-80.2355	0355	Gordon St. at Dean Ave.
+43.5315	-80.2319	0356	Gordon St. at College Ave.
+43.5291	-80.2238	0357	University Centre
+43.5331	-80.216	0358	Stone Rd. E. at Arbour Medical Centre
+43.539	-80.2081	0359	Victoria Rd. S. at Stone Rd. E.
+43.5521	-80.2235	0360	535 York Rd. at Tim Hortons
+43.5545	-80.2202	0361	York Rd. at Beaumont Cres.
+43.5569	-80.2168	0362	728 York Rd.
+43.5588	-80.2142	0363	785 York Rd.
+43.5615	-80.2105	0364	York Rd. At Watson Pkwy. N.
+43.5666	-80.2115	0365	Watson Pkwy. N. opposite Library
+43.5703	-80.2132	0366	Watson Pkwy. N. at Fleming Rd.
+43.5741	-80.2185	0367	Watson Pkwy. N. at Grange Rd.
+43.5767	-80.2221	0368	Watson Pkwy. N. at  Eastview Rd.
+43.5727	-80.2315	0369	Eastview Rd. at Summit Ridge Dr.
+43.5701	-80.2351	0370	Eastview Rd. at Starwood Dr.
+43.5674	-80.2388	0371	Eastview Rd. at Mountford Dr.
+43.5654	-80.2415	0372	Eastview Rd. at Victoria Rd.
+43.5672	-80.245	0373	211 Victoria Rd. N.
+43.5696	-80.2486	0374	Victoria Rd. N. at Eramosa Rd.
+43.572	-80.2518	0375	Victoria Rd. N. at Speedvale Ave. E.
+43.5753	-80.2563	0376	Victoria Rd. N. at Brant Ave.
+43.5781	-80.2602	0377	Victoria Rd. N. at Woodlawn Rd. E.
+43.5806	-80.2636	0378	Victoria Rd. N. opposite Trillium Waldorf
+43.579	-80.2667	0379	Inverness Dr. at Wilton Rd.
+43.5763	-80.2626	0380	Inverness Dr. at Woodlawn Rd.
+43.574	-80.2652	0381	Woodlawn Rd. E. at Golfview Dr.
+43.5719	-80.2682	0382	Woodlawn Rd. E. at Country Club Dr.
+43.5686	-80.2727	0383	Woodlawn Rd. E. at Riverside Glen
+43.566	-80.2763	0384	Woodlawn Rd. E. at Canadian Tire 
+43.5641	-80.2789	0385	Woodlawn Rd. W. at Walmart
+43.5584	-80.2801	0386	Nicklin Rd. at Burns Dr.
+43.5573	-80.2762	0387	Bailey Ave. at Kathleen St.
+43.5555	-80.2726	0388	Kathleen St. at Speedvale Ave. W.
+43.5532	-80.2741	0389	Westmount Rd. at Kimberley Dr.
+43.5502	-80.27	0390	St. Joseph's Health Centre
+43.5598	-80.2696	0391	Westmount Rd. at Division St.
+43.5486	-80.2678	0392	Westmount Rd. at Lourdes
+43.5455	-80.2635	0393	Westmount Rd. at London Rd. W.
+43.5458	-80.2614	0394	Yorkshire St. N. at Home St. 
+43.5454	-80.2584	0395	Suffolk St. W. at Glasgow St.
+43.5463	-80.2567	0396	Suffolk St. at Dublin St. Church
+43.5473	-80.2547	0397	160 Woolwich St.
+43.5456	-80.249	0398	Wyndham St. N. at IF Shoe Store
+43.5458	-80.2455	0399	Guelph Central Station
+43.5458	-80.2455	0400	Guelph Central Station
+43.5441	-80.241	0401	Neeve St. at Ontario St.
+43.5447	-80.2371	0402	Ontario St. at Manitoba St.
+43.5452	-80.2347	0403	168 Ontario St.
+43.5455	-80.2329	0404	Ontario St. at York Rd.
+43.5467	-80.2308	0405	York Rd. at Morris St.
+43.5491	-80.2276	0406	York Rd. at Brockville Ave.
+43.5508	-80.2253	0407	York Rd. at Audrey Ave.
+43.5521	-80.2235	0408	535 York Rd. at Tim Hortons
+43.5544	-80.2204	0409	York Rd. at Beaumont Cres.
+43.5587	-80.2144	0410	728 York Rd.
+43.5615	-80.2105	0411	895 York Rd.
+43.5613	-80.2108	0412	York Rd. at Watson Pkwy. N.
+43.5635	-80.2079	0413	York Rd. at Graniteworx
+43.5645	-80.2055	0414	Watson Rd. S. at York Rd.
+43.5624	-80.2026	0415	Watson Rd. S. at Airpark Pl.
+43.5605	-80.1999	0416	Watson Rd. S. at Guelph Transit Centre
+43.558	-80.199	0417	Watson Pkwy. S. at Dunlop Dr.
+43.559	-80.2029	0418	Watson Pkwy. S. at Cargill 
+43.5603	-80.2062	0419	Watson Pkwy. S. at Taggert St.
+43.5614	-80.211	0420	York Rd. at Watson Pkwy. N.
+43.5583	-80.2152	0421	York Rd. at Yorkhaven Pl.
+43.557	-80.217	0422	York Rd. at Royal City Jaycees Park
+43.5549	-80.2199	0423	York Rd. at Beaumont Cres.
+43.5516	-80.2245	0424	York Rd. at Victoria Rd.
+43.549	-80.2279	0425	York Rd. at Brockville Ave.
+43.5475	-80.23	0426	York Rd. at Harris St.
+43.5456	-80.2331	0427	Ontario St. at Huron St. 
+43.5449	-80.2372	0428	70 Ontario St.
+43.5443	-80.2402	0429	Ontario St. at Neeve St.
+43.5458	-80.2455	0430	Guelph Central Station
+43.5458	-80.2455	0500	Guelph Central Station
+43.5418	-80.2481	0501	Gordon St. at Nottingham St.
+43.5408	-80.2452	0502	Gordon St. at Wellington St.
+43.5383	-80.2413	0503	Gordon St. at Water St.
+43.5371	-80.2398	0504	Gordon St. at Forbes Ave.
+43.5334	-80.2345	0505	Gordon St. at Dean Ave.
+43.5315	-80.2319	0506	Gordon St. at College Ave.
+43.5291	-80.2238	0507	University Centre
+43.5275	-80.2264	0508	Gordon St. at Stone Rd. W.
+43.5252	-80.2211	0509	Gordon St. at Harvard Rd. 
+43.5221	-80.2132	0510	Gordon St. at Kortright Rd. 
+43.5195	-80.2077	0511	Gordon St. at Harts Lane
+43.5181	-80.2058	0512	1155 Gordon St. 
+43.5166	-80.2037	0513	Gordon St. at Edinburgh Rd. S.
+43.5138	-80.1999	0514	Arkell Rd. at Gordon St. 
+43.5162	-80.196	0515	Arkell Rd. at Ridgeway Ave.
+43.5176	-80.191	0516	Summerfield Dr. at Amsterdam Cres.
+43.5155	-80.1886	0517	Summerfield Dr. at Cummings Crt.
+43.5164	-80.1847	0518	Summerfield Dr. at Bright Lane
+43.5198	-80.1801	0519	Summerfield Dr. at Victoria Rd. S.
+43.515	-80.1755	0520	Frederick Dr. at Waterford Dr. 
+43.5117	-80.1772	0521	Goodwin Dr. at Ray Cres.
+43.5089	-80.181	0522	Goodwin Dr. at Orin Reid Park
+43.506	-80.1848	0523	Goodwin Dr. at Sinclair St.
+43.5043	-80.1867	0524	Goodwin Dr. at Darling Cres. 
+43.5032	-80.188	0525	Goodwin Dr. at Eugene Dr. 
+43.5041	-80.1902	0526	Farley Dr. at Porter Dr.
+43.5084	-80.1923	0527	Pine Ridge Dr. at Periwinkle Way
+43.509	-80.1956	0528	Gordon St. at Lowes Rd.
+43.5118	-80.1969	0529	Gordon St. at Continuing Education
+43.514	-80.1996	0530	Gordon St. at Arkell Rd. 
+43.5166	-80.2032	0531	Gordon St. at Valley Rd.
+43.5185	-80.2057	0532	Gordon St. at Landsdown Dr.
+43.5196	-80.2075	0533	Gordon St. at Harts Lane
+43.5209	-80.2099	0534	1030 Gordon St.
+43.5227	-80.2137	0535	Gordon St. at Kortright Rd. 
+43.5243	-80.2169	0536	Gordon St. at Hands Dr.
+43.5258	-80.2218	0537	Gordon St. at Monticello Cres. 
+43.5291	-80.2238	0538	University Centre
+43.5309	-80.2308	0539	Gordon St. at Vet College
+43.5328	-80.2333	0540	Gordon St. at Macdonald Stewart Art Centre
+43.537	-80.2392	0541	Gordon St. at Dormie Lane
+43.5381	-80.2409	0542	Gordon St. at Water St.
+43.541	-80.2452	0543	Gordon St. at Wellington St.
+43.5419	-80.2475	0544	Gordon St. at Harvey's
+43.5434	-80.2491	0545	City Hall
+43.5458	-80.2455	0546	Guelph Central Station
+43.529	-80.2238	0600	University Centre
+43.5275	-80.2264	0601	Gordon St. at Stone Rd. W. 
+43.5252	-80.2211	0602	Gordon St. at Harvard Rd.
+43.524	-80.2233	0603	Harvard Rd. at Shakespeare Arms
+43.5206	-80.2284	0604	Harvard Rd. at Princeton Pl.
+43.5181	-80.2284	0605	Harvard Rd. at Youngman Dr. 
+43.5174	-80.2304	0606	Edinburgh Rd. at Laurelwood Crt.
+43.5175	-80.2372	0607	Stone Rd. W. at Stone Road Mall
+43.5175	-80.2385	0608	Scottsdale Dr. at Stone Rd. W.
+43.513	-80.2352	0609	Scottsdale Dr. at Ironwood Rd. 
+43.5112	-80.2351	0610	Ironwood Rd. at Steffler Park
+43.5089	-80.2329	0611	Ironwood Rd. at Cole Rd.
+43.5071	-80.2299	0612	Ironwood Rd. at Woodborough Rd.
+43.5057	-80.2272	0613	Ironwood Rd. at Hilldale Cres.
+43.5075	-80.2256	0614	Ironwood Rd. at Brookhaven Crt.
+43.5099	-80.228	0615	Ironwood Rd. at Kortright Rd. W.
+43.5117	-80.2303	0616	Scottsdale Dr. at Steffler Dr
+43.5138	-80.2369	0617	711 Scottsdale Dr.
+43.5147	-80.2382	0618	692 Scottsdale Dr.
+43.5161	-80.2386	0619	Stone Rd. W. at Scottsdale Dr.
+43.5176	-80.2366	0620	372 Stone Rd. W.
+43.5195	-80.2342	0621	Stone Rd. W. at Edinburgh Rd. S. 
+43.5179	-80.2282	0622	Youngman Dr. at Harvard Rd.
+43.5205	-80.2284	0623	Harvard Rd. at Princeton Pl.
+43.5224	-80.2258	0624	Harvard Rd. at Rickson Ave.
+43.5243	-80.2216	0625	35 Harvard Ave. at Plaza
+43.5258	-80.2218	0626	Gordon St. at Monticello Cres.
+43.529	-80.2238	0627	University Centre
+43.5291	-80.2238	0700	University Centre
+43.5252	-80.2211	0701	Gordon St. at Harvard Rd.
+43.5221	-80.2132	0702	Gordon St. at Kortright Rd.
+43.5201	-80.215	0703	Kortright Rd. W. at Yewholme Dr.
+43.5171	-80.2166	0704	Kortright Rd. W. at Rickson Ave.
+43.5136	-80.2213	0705	Kortright Rd. W. at Edinburgh Rd. S.
+43.5107	-80.2271	0706	Kortright Rd. W. at Hanlon Creek Park
+43.5093	-80.2307	0707	555 Kortright Rd. W.
+43.507	-80.2338	0708	Kortright Rd. W. at Hanlon Rd.
+43.5054	-80.2367	0709	Downey Rd. at Woodland Glen Dr.
+43.5044	-80.2422	0710	Niska Rd. opposite Tanager Dr.
+43.5034	-80.2461	0711	Ptarmigan Dr. at Niska Rd.
+43.4997	-80.2442	0712	Ptarmigan Dr. at Pheasant Run Dr.
+43.4998	-80.238	0713	Ptarmigan Dr. at Downey Rd.
+43.5024	-80.239	0714	Downey Rd. at Hazelwood Dr.
+43.5048	-80.238	0715	Downey Rd. at Niska Rd.
+43.5069	-80.2335	0716	Kortright Rd. W. at Hanlon Rd.
+43.509	-80.2307	0717	Kortright Rd. W. at Plaza
+43.5112	-80.2243	0718	Kortright Rd. W. opposite Hanlon Creek Park
+43.5143	-80.2199	0719	Kortright Rd. W. at Edinburgh Rd. S.
+43.5165	-80.2169	0720	Kortright Rd. W. at Rickson Ave.
+43.5198	-80.2148	0721	Kortright Rd. W. opposite Yewholme Dr.
+43.5227	-80.2137	0722	Gordon St. at Kortright Rd. W.
+43.5243	-80.2169	0723	Gordon St. at Hands Dr.
+43.5258	-80.2218	0724	Gordon St. at Monticello Cres.
+43.5291	-80.2238	0725	University Centre
+43.5458	-80.2455	0800	Guelph Central Station
+43.5436	-80.2465	0801	Wyndham St. S. at Farquhar St.
+43.5423	-80.244	0802	Wellington St. E. at KFC
+43.5383	-80.2413	0803	Gordon St. at Water St.
+43.5351	-80.2432	0804	Water St. at McCrae Blvd.
+43.5351	-80.2465	0805	Water St. at Maple St.
+43.5319	-80.2436	0806	Maple St. at Forest St.
+43.53	-80.2461	0807	Forest St. at Park
+43.5274	-80.2445	0808	Edinburgh Rd. S. at Maplewood Dr.
+43.5252	-80.2422	0809	College Ave. W. at Edinburgh Rd. S.
+43.5216	-80.2471	0810	College Ave. W. at Centennial 
+43.518	-80.2457	0811	129 Janefield Ave.  
+43.5168	-80.2409	0812	Janefield Ave. at Scottsdale Dr.
+43.5188	-80.2392	0813	Stone Road Mall
+43.521	-80.24	0814	Scottsdale Dr. at Wilsonview Ave. 
+43.5218	-80.242	0815	220 Scottsdale Dr.
+43.5233	-80.2436	0816	Scottsdale Dr. at College Ave. W.
+43.5243	-80.243	0817	College Ave. W. at Meadowcroft
+43.5268	-80.2434	0818	Edinburgh Rd. S. at Floral Dr.
+43.5285	-80.2457	0819	Edinburgh Rd. S. at Lockyer Rd.
+43.53	-80.2478	0820	Edinburgh Rd. S. at Municipal St. 
+43.5324	-80.2511	0821	Edinburgh Rd. S. at Honey Cres.
+43.5358	-80.2535	0822	Bristol St. at McGee St. 
+43.538	-80.253	0823	Yorkshire St. S. at Waterloo Ave.
+43.5389	-80.2525	0824	Waterloo Ave. at Glasgow St. 
+43.5412	-80.2498	0825	Waterloo Ave. at Norfolk St.
+43.5433	-80.2491	0826	Guelph City Hall
+43.5458	-80.2455	0827	Guelph Central Station
+43.5458	-80.2455	0900	Guelph Central Station
+43.5415	-80.2498	0901	3 Waterloo Ave. 
+43.5389	-80.2525	0902	Waterloo Ave. at Glasgow St. 
+43.5375	-80.2541	0903	Waterloo Ave. at Yorkshire St. S. 
+43.5352	-80.2565	0904	225 Waterloo Ave. 
+43.5327	-80.2591	0905	Waterloo Ave. at Beachwood Ave. 
+43.531	-80.2609	0906	387 Waterloo Ave.
+43.5228	-80.2677	0907	659 Wellington St. N. 
+43.5209	-80.2693	0908	Imperial Rd. S. at Wellington St. N.
+43.5233	-80.2757	0909	Imperial Rd. S. at Stephanie Dr. 
+43.5253	-80.28	0910	Imperial Rd. S. at Deerpath Dr. 
+43.5255	-80.2844	0911	Imperial Rd. S.  at Paisley St. 
+43.5225	-80.288	0912	Paisley Rd. at Zehrs
+43.5224	-80.2818	0913	Stephanie Dr. at Hollyberry Pl
+43.523	-80.2765	0914	Stephanie Dr. at Imperial Rd. S.
+43.5223	-80.2739	0915	Imperial Rd. S. at West Acres Dr.
+43.5208	-80.2699	0916	Imperial Rd. S. at Tim Hortons
+43.5229	-80.2672	0917	Wellington St. W. at Wastewater Treatment Plant
+43.5311	-80.2606	0918	364 Waterloo Ave.
+43.5336	-80.258	0919	Waterloo Ave. at St. Arnaud St.
+43.5365	-80.2549	0920	180 Waterloo Ave. 
+43.5391	-80.2521	0921	Waterloo Ave. at Glasgow St. 
+43.5412	-80.2498	0922	Waterloo Ave. at Norfolk  St. 
+43.5434	-80.2491	0923	Guelph City Hall
+43.5458	-80.2455	0924	Guelph Central Station
+43.5458	-80.2455	1000	Guelph Central Station
+43.5458	-80.25	1001	Quebec St. at B.M.O.
+43.5454	-80.2529	1002	Paisley St. at Library
+43.5435	-80.2567	1003	Paisley St. at Glasgow St.
+43.5424	-80.2588	1004	Paisley St. at G.C.V.I.
+43.5415	-80.2606	1005	Paisley St. at Harrison Ave.
+43.5407	-80.2632	1006	Paisley St. at Edinburgh Rd. N.
+43.5389	-80.2657	1007	Paisley Rd. at Alma St.
+43.5365	-80.2689	1008	Paisley Rd. at Western Ave.
+43.5346	-80.2715	1009	Paisley Rd. at Heath Rd.
+43.5355	-80.2749	1010	Westwood Rd. at Silvercreek Pkwy. N.
+43.5328	-80.2788	1011	85 Westwood Rd. 
+43.5328	-80.2852	1012	225 Westwood Rd. 
+43.5333	-80.2882	1013	Willow Rd. at Westwood Rd.
+43.5315	-80.2906	1014	577 Willow Rd. at Church
+43.5276	-80.2907	1015	Imperial Rd. S. at Ferman Dr. 
+43.5247	-80.2914	1016	West End Community Centre
+43.5261	-80.2854	1017	926 Paisley Rd. 
+43.529	-80.2792	1018	Paisley Rd. at Candlewood Dr.
+43.5309	-80.276	1019	Paisley Rd. at West Hill Estates
+43.5345	-80.2715	1020	Paisley Rd. at Heath Rd.
+43.5369	-80.2681	1021	Paisley Rd. at Goldie Ave.
+43.5388	-80.2656	1022	Paisley Rd. at Alma St.
+43.5404	-80.2633	1023	Paisley Rd. at Edinburgh Rd. N.
+43.5425	-80.2584	1024	Paisley St. at Yorkshire St. N. 
+43.5433	-80.2568	1025	Paisley St. at Glasgow St. 
+43.5451	-80.2532	1026	Paisley St. at Norfolk St. 
+43.5456	-80.249	1027	Wyndham St. N. at IF Shoe store
+43.5458	-80.2455	1028	Guelph Central Station
+43.5458	-80.2455	1100	Guelph Central Station
+43.5441	-80.2507	1101	Norfolk St. at Albion
+43.5474	-80.2549	1102	Suffolk St. W. at Norfolk St. 
+43.5464	-80.2568	1103	Suffolk St. W. at Dublin St.
+43.5455	-80.2585	1104	Suffolk St. W. at Glasgow St.
+43.5442	-80.2609	1105	Suffolk St. W. at Yorkshire St. N.
+43.5426	-80.2641	1106	Suffolk St. W. at Edinburgh Rd. N. 
+43.5429	-80.2653	1107	Edinburgh Rd. N. at Mercer St.
+43.5454	-80.2715	1108	Willow Rd. at Dawson Rd.
+43.5458	-80.2742	1109	Dawson Rd. at Shelldale Cres.
+43.5493	-80.279	1110	Dawson Rd. at Dawson Road Medical Clinic
+43.5478	-80.283	1111	229 Speedvale Ave. W.
+43.545	-80.2868	1112	Speedvale Ave. W. at Silvercreek Pkwy. N.
+43.5426	-80.2902	1113	361 Speedvale Ave. W. 
+43.5404	-80.2916	1114	177 Marksam Rd.
+43.5378	-80.2889	1115	145 Marksam Rd. 
+43.5374	-80.2845	1116	76 Marksam Rd. 
+43.5402	-80.2783	1117	Willow Rd. at Silvercreek Pkwy.
+43.5427	-80.2749	1118	158 Willow Rd.
+43.5435	-80.2738	1119	66 Willow Rd. 
+43.545	-80.2718	1120	26 Willow Rd. 
+43.5425	-80.2652	1121	200 Edinburgh Rd. N.
+43.5425	-80.2583	1122	Paisley St. at Yorkshire St. N.
+43.5434	-80.2566	1123	Paisley St. at Glasgow St. 
+43.5451	-80.2532	1124	Paisley St. at Norfolk St. 
+43.5458	-80.2455	1125	Guelph Central Station
+43.5456	-80.249	1130	Wyndham St. N. at IF Shoe Store
+3423	2342	1131	Marksham Rd. south of Speedvale Ave. W.
+43.5458	-80.2455	1200	Guelph Central Station
+43.5459	-80.249	1201	Wyndham St. N. at PharmaSave
+43.549	-80.2504	1202	Eramosa Rd. at Bridge
+43.5534	-80.2504	1203	Delhi St. at Eramosa Rd.
+43.5555	-80.2533	1204	Delhi St. at Guelph General Hospital
+43.558	-80.2568	1205	Delhi St. at Homewood Health Centre
+43.5597	-80.2592	1206	Delhi St. at Emma St. 
+43.562	-80.2567	1207	Emma St. at Metcalfe St. 
+43.5634	-80.2546	1208	Emma St. at Stevenson St. 
+43.5662	-80.2575	1209	Speedvale Ave. E. at Stevenson St. 
+43.569	-80.2536	1210	Speedvale Ave. E. at Renfield St.
+43.5702	-80.2519	1211	Speedvale Ave. E. at Acorn Pl.
+43.572	-80.2518	1212	Victoria Rd. N. at Speedvale Ave. E.
+43.5753	-80.2563	1213	Victoria Rd. N. at Brant Ave.
+43.5773	-80.2606	1214	Woodlawn Rd. E. at Victoria Rd. N.
+43.5729	-80.2607	1215	Windsor St. at Kingsley Crt.
+43.57	-80.2626	1216	Waverly Dr. at Stevenson St.
+43.5681	-80.2647	1217	Metcalfe St. at Waverley Dr. 
+43.566	-80.2618	1218	Metcalfe St. at Shaftesbury Ave.
+43.5646	-80.2601	1219	Metcalfe St. at Speedvale  Ave.
+43.5631	-80.2619	1220	Speedvale Ave. at Clive Ave.
+43.5613	-80.2616	1221	Delhi St. at Phillip Ave.
+43.5597	-80.2595	1222	Delhi St. at Emma St. 
+43.5575	-80.2563	1223	Delhi St. at Homewood Health Centre
+43.5554	-80.2534	1224	Delhi St. at Spring St.
+43.5532	-80.2503	1225	Delhi St. at Eramosa Rd.
+43.5491	-80.2506	1226	Eramosa Rd. at Arthur St. 
+43.5456	-80.249	1227	Wyndham St. N. at IF Shoe Store
+43.5458	-80.2455	1228	Guelph Central Station
+43.5458	-80.2455	1300	Guelph Central Station
+43.5464	-80.2495	1301	Wyndham St. N. at Bank of Nova Scotia
+43.549	-80.2504	1302	Eramosa Rd. at Bridge
+43.5556	-80.2495	1303	Eramosa Rd. at St. Catharines St.
+43.5565	-80.2488	1304	Metcalfe St. at Eramosa Rd.
+43.5549	-80.2465	1305	Metcalfe St. at Lemon St.
+43.553	-80.244	1306	Metcalfe St. at Palmer St.
+43.5517	-80.2421	1307	Metcalfe St. at Grange St.
+43.5524	-80.2408	1308	Grange St. at Clara St.
+43.5539	-80.2388	1309	Grange St. at Louisa St
+43.5546	-80.2378	1310	Grange St. at Stevenson St.
+43.5583	-80.24	1311	Cassino Ave. at William St. 
+43.5614	-80.2358	1312	Cassino Ave. at Palermo Cres.
+43.5629	-80.2347	1313	Cassino Ave. at Hadati Rd.
+43.5645	-80.2377	1314	Hadati Rd. at Yeats Crt.
+43.564	-80.2403	1315	Hadati Rd. at Victoria Rd. N.
+43.5653	-80.2413	1316	Eastview Rd. at Glenburnie Dr.
+43.5674	-80.2385	1317	Eastview Rd. at Mountford Dr.
+43.5688	-80.2313	1318	Starwood Dr. at Watt St.
+43.5678	-80.232	1319	Watt St. at Auden Rd.
+43.5689	-80.2348	1320	Auden Rd. at Eastview Rd.
+43.5674	-80.2388	1321	Eastview Rd. at Mountford Dr.
+43.5651	-80.2419	1322	Eastview Rd. at VictoriaRd. 
+43.5671	-80.245	1323	Victoria Rd. N. at Greenview St. 
+43.5674	-80.248	1324	Eramosa Rd. at Orchard Cres.
+43.5624	-80.2487	1325	Eramosa Rd. at Meyer Dr.
+43.5596	-80.2492	1326	Eramosa Rd. at Stevenson St.
+43.5562	-80.2497	1327	Eramosa Rd. at Metcalfe St.
+43.5487	-80.2507	1328	Eramosa Rd. at Arthur St.
+43.5456	-80.249	1329	Wyndham St. N. at IF Shoe Store
+43.5458	-80.2455	1330	Guelph Central Station
+43.5458	-80.2455	1400	Guelph Central Station
+43.5479	-80.2417	1401	Elizabeth St. at Duke St.
+43.549	-80.2402	1402	65 Elizabeth St.
+43.5509	-80.2377	1403	Elizabeth St. at Morris St.
+43.5527	-80.2353	1404	Elizabeth St. at Stevenson St.
+43.5552	-80.2299	1405	Elizabeth St. at Victoria Rd. N.
+43.5578	-80.2319	1406	Grange Rd. at Victoria Rd. N.
+43.5599	-80.2271	1407	Grange Rd. at Schroder Cres.
+43.564	-80.2229	1408	Grange Rd. at Breesgarden Lane
+43.5674	-80.2225	1409	Grange Rd. at Ralston Dr.
+43.5706	-80.2218	1410	Grange Rd. at Ken Danby School
+43.5735	-80.218	1411	Watson Pkwy. N. South of Grange Rd.
+43.5705	-80.2139	1412	Watson Pkwy. N. at Fleming Rd.
+43.5666	-80.2118	1413	Watson Pkwy. N. at Library
+43.5665	-80.2179	1414	Starwood Dr. at Fleming Rd.
+43.5667	-80.221	1415	Starwood Dr. at Ralston Dr. 
+43.5657	-80.223	1416	Grange Rd. at Silurian Dr. 
+43.5606	-80.2264	1417	Grange Rd. at Auden Rd.
+43.559	-80.2285	1418	Grange Rd. at St. James Park
+43.5569	-80.231	1419	Victoria Rd. N. at Grange Rd.
+43.5553	-80.2303	1420	Elizabeth St. at Victoria Rd. N.
+43.5534	-80.2346	1421	Elizabeth St. at Stevenson St. 
+43.5514	-80.2372	1422	Elizabeth St. at Morris St. 
+43.5496	-80.2396	1423	Elizabeth St. at Huron St.
+43.5486	-80.241	1424	Elizabeth St. at Red Chevron Club
+43.5458	-80.2455	1425	Guelph Central Station
+43.5291	-80.2238	1500	University Centre
+43.5262	-80.2256	1501	Stone Rd. W. at Gordon St.
+43.5241	-80.2284	1502	Stone Rd. W. at Fire Hall
+43.522	-80.2312	1503	Stone Rd. W. at Target
+43.5204	-80.2334	1504	Stone Rd. W. at Edinburgh Rd. S.
+43.5175	-80.2372	1505	Stone Rd. W. at Stone Road Mall
+43.5159	-80.2393	1506	Stone Rd. W. at Scottsdale Dr.
+43.5099	-80.2473	1507	Stone Rd. W. at Woodland Glen Dr.
+43.5106	-80.2502	1508	College Ave. W. at Flanders Rd.
+43.5117	-80.2528	1509	College Ave. W. at Conroy Cres.
+43.514	-80.2562	1510	College Ave. W. at Argyle Dr.
+43.5159	-80.2543	1511	506 College Ave. W.
+43.5199	-80.2489	1512	College Ave. W. east of Hanlon
+43.518	-80.2457	1513	129 Janefield Ave.
+43.5167	-80.2411	1514	Janefield Ave. at Scottsdale Dr.
+43.5188	-80.2392	1515	Stone Road Mall
+43.521	-80.2399	1516	Scottsdale Dr. at Wilsonview Ave.
+43.5222	-80.2387	1517	Wilsonview Ave.
+43.5217	-80.2365	1518	Edinburgh Rd. at Chancellors Way
+43.5216	-80.2313	1519	Stone Rd. opposite Target
+43.5247	-80.2272	1520	95 Ston Rd. W.
+43.5291	-80.2238	1521	University Centre
+43.5458	-80.2455	1600	Guelph Central Station
+43.5423	-80.244	1601	Wellington St. E. at KFC
+43.5383	-80.2414	1602	Gordon St. at Water St.
+43.5372	-80.2398	1603	Gordon St. at Forbes Ave.
+43.534	-80.2355	1604	Gordon St. at Dean Ave.
+43.5314	-80.2319	1605	Gordon St. at College Ave.
+43.5275	-80.2264	1606	Gordon St. at Stone Rd. W.
+43.5252	-80.2211	1607	Gordon St. at Harvard Rd. 
+43.5221	-80.2132	1608	Gordon St. at Kortright Rd. 
+43.5196	-80.2078	1609	Gordon St. at Harts Lane
+43.5181	-80.2057	1610	1155 Gordon St. 
+43.5166	-80.2037	1611	Gordon St. at Edinburgh Rd. S.
+43.5137	-80.1997	1612	Gordon St. at Arkell Rd. 
+43.5118	-80.1972	1613	1417 Gordon St.
+43.5089	-80.1958	1614	Gordon St. at Lowes Rd. 
+43.5052	-80.1944	1615	Gordon St. at Clairfields Dr.
+43.5038	-80.196	1616	25 Clairfields Dr. W.
+43.4987	-80.1995	1617	Opposite 116 Clairfields Dr. W.
+43.4957	-80.1967	1618	Clairfields Dr. W. at Boulder Cres.
+43.4932	-80.2012	1619	Laird Rd. at Clair Rd. W.
+43.4947	-80.2073	1620	Southgate Dr. at Laird Rd. 
+43.4978	-80.2113	1621	125 Southgate Dr.
+43.5002	-80.2135	1622	180 Southgate Dr.
+43.5023	-80.2176	1623	310 Southgate Dr.
+43.5	-80.2201	1624	450 Southgate Dr.
+43.4977	-80.2177	1625	525 Southgate Dr.
+43.4945	-80.2139	1626	595 Southgate Dr.
+43.493	-80.2099	1627	679 Southgate Dr.
+43.4922	-80.2088	1628	Southgate Dr. at Corporate Rd.
+43.491	-80.2071	1629	Southgate Dr. at Admiral Pl.
+43.4896	-80.204	1630	829 Southgate Dr.
+43.4926	-80.2	1631	300 Clair Rd. (Water Tower)
+43.4955	-80.1952	1632	Bishop Macdonell High School
+43.4993	-80.1916	1633	Gosling Gardens at Clair Rd. W.
+43.5013	-80.1929	1634	Gosling Garden Park
+43.5025	-80.1946	1635	Gosling Gardens at Clairfields Dr. W. 
+43.5057	-80.1943	1636	Gordon St. at Westminster Woods
+43.509	-80.1956	1637	Gordon St. at Lowes Rd. 
+43.5118	-80.1969	1638	Gordon St. at Continuing Education
+43.514	-80.1996	1639	Gordon St. at Arkell Rd. 
+43.5167	-80.2031	1640	Gordon St. at Valley Rd.
+43.5185	-80.2057	1641	Gordon St. at Landsdown Dr.
+43.5196	-80.2074	1642	Gordon St. at Harts Lane
+43.5209	-80.2099	1643	1030 Gordon St.
+43.5227	-80.2137	1644	Gordon St. at Kortright Rd. 
+43.5243	-80.2169	1645	Gordon St. at Hands Dr.
+43.5258	-80.2218	1646	Gordon St. at Monticello Cres. 
+43.5271	-80.2253	1647	Gordon St. at South Ring Rd.
+43.5309	-80.2308	1648	Gordon St. at Vet College
+43.5328	-80.2333	1649	Gordon St. at Macdonald Stewart Art Centre
+43.537	-80.2339	1650	Gordon St. at Dormie Lane
+43.5381	-80.2409	1651	Gordon St. at Water St.
+43.5414	-80.2441	1652	Wellington St. E. at Wellington Plaza 
+43.5434	-80.2452	1653	Wyndham St. S. at Fountain St.
+43.5458	-80.2455	1654	Guelph Central Station
+43.5458	-80.2455	2000	Guelph Central Station
+43.5488	-80.2549	2001	Woolwich St. at Norwich St. E.
+43.5456	-80.2632	2002	London Rd. W. at Westmount Rd.
+43.5454	-80.2715	2003	Willow Rd. at Dawson Rd.
+43.5428	-80.2751	2004	Willow Rd. at Willow Road P.S
+43.5398	-80.2793	2005	Willow West Mall
+43.537	-80.2832	2006	Willow Rd. at Marksam Rd.
+43.5349	-80.286	2007	Willow Rd. at Westwood Public School
+43.5333	-80.2882	2008	Willow Rd. at Westwood Rd.
+43.5315	-80.2906	2009	577 Willow Rd. at Church
+43.5276	-80.2965	2010	Willow Rd. at Flaherty Dr.
+43.5305	-80.3036	2011	Elmira Rd. N. at Flaherty Dr.
+43.5329	-80.3064	2012	Elmira Rd. N. at Independence Pl.
+43.535	-80.3092	2013	Elmira Rd. at Massey Rd.
+43.5374	-80.3128	2014	Elmira Rd. at Power Corp
+43.5358	-80.3179	2015	925 Woodlawn Rd. W.
+43.5332	-80.3219	2016	Governors Rd. at Woodlawn Rd. W.
+43.5361	-80.3224	2017	110 Malcolm Rd.
+43.5384	-80.3193	2018	14 Malcolm Rd.
+43.5399	-80.317	2019	2 Malcolm Rd.
+43.5338	-80.3193	2020	450 Michener Rd.
+43.5311	-80.3156	2021	Michener Rd. at Minto Rd.
+43.5322	-80.3135	2022	530 Massey Rd.
+43.5347	-80.3098	2023	Massey Rd. at Elmira Rd. N.
+43.5362	-80.3077	2024	400 Massey Rd.
+43.5395	-80.3032	2025	265 Massey Rd.
+43.5405	-80.302	2026	Massey Rd. At Imperial Rd. N.
+43.5436	-80.3057	2027	Imperial Rd. at Woodlawn Rd. W.
+43.5451	-80.3077	2028	Imperial Rd. opposite Galaxy Cinema
+43.5491	-80.3064	2029	190 Curtis Dr. at Monarch Rd. 
+43.551	-80.3039	2030	Curtis Dr. at Regal Rd. 
+43.5537	-80.3	2031	Curtis Dr. at Silvercreek Pkwy. N.
+43.5508	-80.2956	2032	Silvercreek Pkwy. N. at Woodlawn Rd. W.
+43.5483	-80.2922	2033	Silvercreek Pkwy. N. at Campbell Rd.
+43.5449	-80.2876	2034	Silvercreek Pkwy N. at  Speedvale Ave. W.
+43.5429	-80.2846	2035	Silvercreek Pkwy. N. at Church
+43.5401	-80.2807	2036	Silvercreek Pkwy. N. at Willow Rd. 
+43.5402	-80.2783	2037	Opposite Willow West Mall
+43.5427	-80.2749	2038	Willow Rd. at Guelph St.
+43.5435	-80.2738	2039	Willow Rd. at Alma St.
+43.5451	-80.2716	2040	Willow Rd. at Baggot St.
+43.5422	-80.2648	2041	200 Edinburgh Rd. N.
+43.5425	-80.2583	2042	Paisley St. at Yorkshire St. N.
+43.5435	-80.2564	2043	Paisley St. at Glasgow St. 
+43.5451	-80.2532	2044	Paisley St. at Norfolk St.  
+43.5456	-80.249	2045	Wyndham St. N. at IF Shoe Store
+43.5458	-80.2455	2046	Guelph Central Station
