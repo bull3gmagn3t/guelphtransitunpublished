@@ -158,10 +158,6 @@ public class Stop {
      * @return true or false
      */
     public boolean equals(Stop s){
-        if(this.getStopID()==s.getStopID()){
-            return true;
-        }else{
-            return false;
-        }
+        return this.getStopID() == s.getStopID();
     }
 }

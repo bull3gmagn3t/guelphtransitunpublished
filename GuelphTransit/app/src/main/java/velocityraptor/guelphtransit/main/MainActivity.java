@@ -1,6 +1,8 @@
 package velocityraptor.guelphtransit.main;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     public Context thisContext;
 
     //database IP
-    public static final String serverURL = "http://ec2-54-202-132-186.us-west-2.compute.amazonaws.com/androidSqlConnect/";
+    public static final String serverURL = "http://www.aidanmaher.com/androidSqlConnect/";
 
     // List of Routes for
     public static ArrayList<Stop> favoriteList = new ArrayList<>();
@@ -76,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
     //Update Schedule variables
     //If the autoUpdate feature is enabled
     static boolean autoUpdate;
+    //if the server address is wrong or cant make a request to the server this flag should be set to true
+    public static boolean serverDown=false;
     //last time the Database was updated
     static String lastDBUpdateTime = "";
     //The time the DB was created on the phone
@@ -169,56 +173,81 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Initialize DBController; if the db is empty, load from server
-        dbController = new DBController(getApplicationContext());
-        ADC = new AlertDialogController(this);
-        if (dbController.getCount() <= 0) {
-            new LoadStops(this).execute();
-            new LoadTime().execute();
+        //Catch error if server name is wrong
+
+        if(!serverDown){
+            dbController = new DBController(getApplicationContext());
+            ADC = new AlertDialogController(this);
+            if (dbController.getCount() <= 0) {
+                try {
+                    new LoadStops(this).execute();
+                    new LoadTime().execute();
+                } catch (RuntimeException e) {
+                    serverDown = true;
+                    autoUpdate = false;
+                    e.printStackTrace();
+                }
+                if(serverDown){
+                    AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+                    alertDialog.setTitle("Alert");
+                    alertDialog.setMessage("We're sorry, we could not retrieve the bus stops :(");
+                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.dismiss();
+                                }
+                            });
+                    alertDialog.show();
+                }
+            }
+        }
+        if(!serverDown) {
+            // Insert the routes into the route list
+            dbController.insertRoutes(routeList);
+            // Insert the stops into the stopLists inside the routeList
+            dbController.insertAllStops(routeList);
+            //sort the routeList
+            Collections.sort(routeList, Route.routeSort);
+            //Set Button PanelMode
+            panelMode = 0;
+            // Initialize BottomBar Fragment
+            busBarFragment = new FragmentBotBar();
+            //Set to Route mode (0 is Route, 1 is Favourites, 2 is Location Button)
+            Bundle args = new Bundle();
+            args.putInt("FRAG_MODE", panelMode);
+            busBarFragment.setArguments(args);
+
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.add(R.id.bot_bar_frag_view, busBarFragment);
+            fragmentTransaction.commit();
+            //Set View of Contents
+            setContentView(R.layout.activity_main);
+
+            //Map & Location Manager Setup [Jackson Keenan]
+            mainMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
+            mapUpdate = CameraUpdateFactory.newLatLngZoom(LOCATION_GUELPH, 12);
+            mainMap.animateCamera(mapUpdate);
+            locManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+
+            //Set Static Context
+            thisContext = getApplicationContext();
+
+            //colour the home, favourite (heart) or location button depending on panelMode
+            setPanelColour();
+
+            ListView list;
+            LegendAdapter adapter = new LegendAdapter(MainActivity.this,
+                    new String[]{
+                            "More than 15 mins",
+                            "5 - 15 mins",
+                            "Less than 5 mins"});
+
+            list = (ListView) findViewById(R.id.legend);
+            list.setAdapter(adapter);
         }
 
-        // Insert the routes into the route list
-        dbController.insertRoutes(routeList);
-        // Insert the stops into the stopLists inside the routeList
-        dbController.insertAllStops(routeList);
-        //sort the routeList
-        Collections.sort(routeList,Route.routeSort);
-        //Set Button PanelMode
-        panelMode = 0;
-        // Initialize BottomBar Fragment
-        busBarFragment = new FragmentBotBar();
-        //Set to Route mode (0 is Route, 1 is Favourites, 2 is Location Button)
-        Bundle args = new Bundle();
-        args.putInt("FRAG_MODE", panelMode);
-        busBarFragment.setArguments(args);
-
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.bot_bar_frag_view, busBarFragment);
-        fragmentTransaction.commit();
-        //Set View of Contents
-        setContentView(R.layout.activity_main);
-
-        //Map & Location Manager Setup [Jackson Keenan]
-        mainMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
-        mapUpdate = CameraUpdateFactory.newLatLngZoom(LOCATION_GUELPH, 12);
-        mainMap.animateCamera(mapUpdate);
-        locManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-
-        //Set Static Context
-        thisContext = getApplicationContext();
-
-        //colour the home, favourite (heart) or location button depending on panelMode
-        setPanelColour();
-
-        ListView list;
-        LegendAdapter adapter = new LegendAdapter(MainActivity.this,
-                new String[]{
-                    "More than 15 mins",
-                    "5 - 15 mins",
-                    "Less than 5 mins"});
-
-        list=(ListView)findViewById(R.id.legend);
-        list.setAdapter(adapter);
     }
+
 
     /**
      * Called when the activity is about to become visible
@@ -228,7 +257,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
         Log.d("Android: ", "Activity Starting");
     }
 
@@ -259,7 +287,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        // Sort the Routes List when the activity resumes
     }
 
     /**
@@ -416,7 +443,9 @@ public class MainActivity extends AppCompatActivity {
                    if not then it will show a pop up saying the db it up to date */
         if (lastDBUpdateTime.equals(serverDBCreateTime)) {
             //Log.d("D", "DB is up to date!");
-            ADC.updateDialog(true);
+            if(!serverDown) {
+                ADC.updateDialog(true);
+            }
         } else {
             //Log.d("D", "DB is updating!");
             lastDBUpdateTime = serverDBCreateTime;

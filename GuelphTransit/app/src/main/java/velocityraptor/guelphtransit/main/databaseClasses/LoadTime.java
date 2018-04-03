@@ -28,8 +28,8 @@ import velocityraptor.guelphtransit.main.MainActivity;
 public class LoadTime extends AsyncTask<String, String, String> {
 
     //JSON Variables
-    JSONParser jParser = new JSONParser();
-    JSONArray time = null;
+    private JSONParser jParser = new JSONParser();
+    private JSONArray time = null;
 
     // URL where the JSON time string is stored
     //private static final String URL = "http://ec2-54-218-117-134.us-west-2.compute.amazonaws.com/androidSqlConnect/getUpdateTime.php";
@@ -77,6 +77,10 @@ public class LoadTime extends AsyncTask<String, String, String> {
             }
         } catch (JSONException e) {
             e.printStackTrace();
+        }catch (java.lang.NullPointerException e){
+            android.util.Log.d("D", "Response not found in LoadTime");
+            MainActivity.serverDown=true;
+            return null;
         }
         return null;
     }

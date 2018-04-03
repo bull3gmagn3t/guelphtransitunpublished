@@ -481,7 +481,7 @@ public class FragmentBotBar extends Fragment {
                                                 stopPopUp.dismiss();
                                             }
 
-                                            LayoutInflater popUpLayout = (LayoutInflater) getActivity().getLayoutInflater();
+                                            LayoutInflater popUpLayout = getActivity().getLayoutInflater();
                                             View popUpView = popUpLayout.inflate(R.layout.popup, null);
                                             stopPopUp = new StopPopup(popUpView, ViewGroup.LayoutParams.WRAP_CONTENT
                                                     , size.x, j, k, MainActivity.serverURL, fragMode);

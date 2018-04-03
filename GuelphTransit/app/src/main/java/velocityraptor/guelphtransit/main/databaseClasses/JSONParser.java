@@ -19,6 +19,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import velocityraptor.guelphtransit.main.MainActivity;
+
 /**
  * This class that obtains the JSON from HTTP URL requests
  * Also turns
@@ -37,9 +39,9 @@ import java.util.List;
 
 public class JSONParser {
 
-    static InputStream is = null;
-    static JSONObject jObj = null;
-    static String json = "";
+    private static InputStream is = null;
+    private static JSONObject jObj = null;
+    private static String json = "";
 
     /**
      * Returns json formatted string which represents a stop
@@ -81,6 +83,8 @@ public class JSONParser {
 
         } catch (IOException e) {
             e.printStackTrace();
+            MainActivity.serverDown=true;
+            return null;
         }
 
         try {

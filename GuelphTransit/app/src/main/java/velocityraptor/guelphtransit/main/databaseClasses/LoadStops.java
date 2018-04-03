@@ -36,8 +36,8 @@ public class LoadStops extends AsyncTask<String, String, String> {
     private AlertDialogController ADC;
 
     // JSON Variables
-    JSONParser jParser = new JSONParser();
-    JSONArray stops = null;
+    private JSONParser jParser = new JSONParser();
+    private JSONArray stops = null;
 
     // URL with the JSON Bus information
     //private static final String URL = "http://ec2-54-218-117-134.us-west-2.compute.amazonaws.com/androidSqlConnect/getRoutes.php";
@@ -101,43 +101,43 @@ public class LoadStops extends AsyncTask<String, String, String> {
     protected String doInBackground(String... args) {
         // Building Parameters
         List<NameValuePair> params = new ArrayList<>();
-        String URL = MainActivity.serverURL+phpFile;
+        String URL = MainActivity.serverURL + phpFile;
         // Getting JSON String From URL
         JSONObject json = jParser.makeHttpRequest(URL, "GET", params);
+        if (json != null) {
+            try {
+                // Check for success tag
+                int success = json.getInt(TAG_SUCCESS);
 
-        try {
-            // Check for success tag
-            int success = json.getInt(TAG_SUCCESS);
+                //Stops found, get array of stops
+                if (success == 1) {
+                    // Get the different JSON Arrays from the Object
+                    stops = json.getJSONArray(TAG_ROUTES);
 
-            //Stops found, get array of stops
-            if (success == 1) {
-                // Get the different JSON Arrays from the Object
-                stops = json.getJSONArray(TAG_ROUTES);
-
-                // Temp variables
-                String route, stopID, stopName;
-                String latitude, longitude, updateTime;
-                String weekTimes,satTimes,sunTimes;
+                    // Temp variables
+                    String route, stopID, stopName;
+                    String latitude, longitude, updateTime;
+                    String weekTimes, satTimes, sunTimes;
 
 
-                //loop through every stop
-                for (int i = 0; i < stops.length(); i++) {
-                    JSONObject c = stops.getJSONObject(i);
+                    //loop through every stop
+                    for (int i = 0; i < stops.length(); i++) {
+                        JSONObject c = stops.getJSONObject(i);
 
-                    //Store each item into a variable
-                    route = c.getString(TAG_ROUTE);
-                    stopID = c.getString(TAG_STOPID);
-                    stopName = c.getString(TAG_STOPNAME);
-                    latitude = c.getString(TAG_LATITUDE);
-                    longitude = c.getString(TAG_LONGITUDE);
-                    weekTimes = c.getString(TAG_WEEKTIME);
-                    satTimes = c.getString(TAG_SATTIME);
-                    sunTimes = c.getString(TAG_SUNTIME);
+                        //Store each item into a variable
+                        route = c.getString(TAG_ROUTE);
+                        stopID = c.getString(TAG_STOPID);
+                        stopName = c.getString(TAG_STOPNAME);
+                        latitude = c.getString(TAG_LATITUDE);
+                        longitude = c.getString(TAG_LONGITUDE);
+                        weekTimes = c.getString(TAG_WEEKTIME);
+                        satTimes = c.getString(TAG_SATTIME);
+                        sunTimes = c.getString(TAG_SUNTIME);
 
-                    // Insert into the database
+                        // Insert into the database
 
-                    dbController.insert(route, stopID, stopName, latitude, longitude,
-                            weekTimes, satTimes, sunTimes);
+                        dbController.insert(route, stopID, stopName, latitude, longitude,
+                                weekTimes, satTimes, sunTimes);
 //                    try{
 //                        dbController.insert(route, stopID, stopName, latitude, longitude,
 //                                weekTimes, satTimes, sunTimes);
@@ -147,19 +147,29 @@ public class LoadStops extends AsyncTask<String, String, String> {
 //                        }
 //                    }
 
-                }
-                // Update the time
-                //JSONObject c = time.getJSONObject(0);
-                //updateTime = c.getString(TAG_UPDATE);
+                    }
+                    // Update the time
+                    //JSONObject c = time.getJSONObject(0);
+                    //updateTime = c.getString(TAG_UPDATE);
 
                 /* Since this class is only used when the database is updated
                    that means the db is up to date and both times will be the same */
-                //MainActivity.setTimes(updateTime, updateTime);
+                    //MainActivity.setTimes(updateTime, updateTime);
+                }
+            } catch (java.lang.NullPointerException e) {
+                //server not found
+                MainActivity.serverDown=true;
+                android.util.Log.d("D", "server not found");
+                return null;
+            } catch (JSONException e) {
+                e.printStackTrace();
+
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
+            return null;
+        }else{
+            MainActivity.serverDown=true;
+            return null;
         }
-        return null;
     }
 
     /**
@@ -171,6 +181,8 @@ public class LoadStops extends AsyncTask<String, String, String> {
     @Override
     protected void onPostExecute(String unused) {
         pDialog.dismiss();
-        ADC.updateDialog(false);
+        if(!MainActivity.serverDown) {
+            ADC.updateDialog(false);
+        }
     }
 }
